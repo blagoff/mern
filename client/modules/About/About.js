@@ -3,13 +3,15 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-// Import Style
+// Import Style 
 import styles from './About.css';
 
 class About extends Component {
   render() {
     return (
-      <h1>About page</h1>
+      <div>
+        <h2>About us</h2>
+      </div>
     );
   }
 }

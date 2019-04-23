@@ -14,7 +14,7 @@ export function addPost(post) {
     type: ADD_POST,
     post,
   };
-}
+} 
 
 export function addPostRequest(post) {
   return (dispatch) => {

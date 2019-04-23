@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 // Import Style
 import styles from './App.css';
 
-// Import Components
+// Import Components 
 import Helmet from 'react-helmet';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';

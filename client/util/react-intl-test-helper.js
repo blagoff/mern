@@ -4,7 +4,7 @@
  * These helper functions aim to address that and wrap a valid,
  * English-locale intl context around them.
  */
-
+ 
 import React from 'react';
 import { IntlProvider, intlShape } from 'react-intl';
 import { mount, shallow } from 'enzyme';

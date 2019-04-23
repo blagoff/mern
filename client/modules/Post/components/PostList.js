@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 // Import Components
 import PostListItem from './PostListItem/PostListItem';
-
+  
 function PostList(props) {
   return (
     <div className="listView">

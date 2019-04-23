@@ -2,7 +2,7 @@ import Post from './models/post';
 
 export default function () {
   Post.count().exec((err, count) => {
-    if (count > 0) {
+    if (count > 0) { 
       return;
     }
 

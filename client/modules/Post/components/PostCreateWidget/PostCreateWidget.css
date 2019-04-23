@@ -2,10 +2,10 @@
   display: none;
   background: #FAFAFA;
   padding: 32px 0;
-  border: 1px solid #eee;
+  border: 1px solid #eee; 
   border-radius: 4px;
 }
-
+ 
 .form-content{
   width: 100%;
   max-width: 600px;

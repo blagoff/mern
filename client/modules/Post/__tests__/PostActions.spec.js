@@ -1,6 +1,6 @@
 import test from 'ava';
 import { actionTest } from 'redux-ava';
-
+  
 import {
   ADD_POST,
   DELETE_POST,

@@ -1,7 +1,7 @@
 import test from 'ava';
 import { actionTest } from 'redux-ava';
 
-import {
+import { 
   SWITCH_LANGUAGE,
   switchLanguage,
 } from '../IntlActions';

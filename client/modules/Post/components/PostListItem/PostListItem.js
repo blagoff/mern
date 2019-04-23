@@ -5,7 +5,7 @@ import { FormattedMessage } from 'react-intl';
 
 // Import Style
 import styles from './PostListItem.css';
-
+  
 function PostListItem(props) {
   return (
     <div className={styles['single-post']}>

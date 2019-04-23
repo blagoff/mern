@@ -1,7 +1,7 @@
 import test from 'ava';
 import callApi, { API_URL } from '../apiCaller';
 import nock from 'nock';
-
+ 
 test('method defaults to GET', t => {
   const reply = { foo: 'bar' };
   nock(API_URL)

@@ -14,24 +14,24 @@ const PostReducer = (state = initialState, action) => {
       return {
         data: action.posts,
       };
-
+ 
     case DELETE_POST :
       return {
         data: state.data.filter(post => post.cuid !== action.cuid),
       };
- 
-      case EDIT_POST :
-        return {
-        data: state.data.map(post => { return post.cuid === action.cuid ? Object.assign({}, post, action.post) : post } ),
-};
 
-      case THUMB_UP :
-        return {
+    case EDIT_POST :
+      return {
+        data: state.data.map(post => { return post.cuid === action.cuid ? Object.assign({}, post, action.post) : post; }),
+      };
+
+    case THUMB_UP :
+      return {
         data: state.data.map(post => { return (post.cuid === action.cuid) ? { ...post, voteNb: post.voteNb + 1 } : post; }),
       };
 
       case THUMB_DOWN :
-        return {
+      return {
         data: state.data.map(post => { return (post.cuid === action.cuid) ? { ...post, voteNb: post.voteNb - 1 } : post; }),
       };
 

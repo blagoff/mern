@@ -13,7 +13,7 @@ export function sequence(items, consumer) {
         })
         .then(runner);
     }
-
+ 
     return Promise.resolve(results);
   };
 

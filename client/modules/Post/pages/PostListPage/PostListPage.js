@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 // Import Components
 import PostList from '../../components/PostList';
 import PostCreateWidget from '../../components/PostCreateWidget/PostCreateWidget';
-
+ 
 // Import Actions
 import { addPostRequest, fetchPosts, deletePostRequest, thumbDownRequest, thumbUpRequest } from '../../PostActions';
 import { toggleAddPost } from '../../../App/AppActions';
@@ -37,7 +37,6 @@ class PostListPage extends Component {
   handleThumbDown = post => {
     this.props.dispatch(thumbDownRequest(post.cuid, post));
   }
-
 
   render() {
     return (

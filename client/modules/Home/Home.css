@@ -1,1 +1,15 @@
 /* Home styles */
+
+.container {
+  max-width: 980px; 
+  width: 100%;
+  min-height: 60vh;
+  padding: 15px;
+  margin: 0 auto;
+  color: navy;
+}
+
+.Header__site-title__11V45 a span{
+  color: navy !important;
+}
+
